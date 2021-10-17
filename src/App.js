@@ -1,7 +1,12 @@
-import './App.css'
+import { CityProvider } from './context/CityContext'
+import Container from './components/Container'
 
 function App() {
-  return <div className="App">App components</div>
+  return (
+    <CityProvider>
+      <Container />
+    </CityProvider>
+  )
 }
 
 export default App

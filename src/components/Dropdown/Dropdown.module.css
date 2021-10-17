@@ -1,0 +1,9 @@
+.dropdown {
+  width: 150px;
+}
+
+.controlClassName {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}

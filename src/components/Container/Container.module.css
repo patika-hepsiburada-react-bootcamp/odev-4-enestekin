@@ -1,0 +1,23 @@
+.container {
+  background-color: #212121;
+  border-radius: 10px;
+  margin: 8rem auto;
+  text-align: center;
+  width: 25rem;
+  height: 28rem;
+  animation-name: fadein;
+  animation-duration: 3s;
+}
+
+.weathericons {
+  padding-top: 1.5rem;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
